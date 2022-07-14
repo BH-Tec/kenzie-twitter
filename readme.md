@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <a href="">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://twitter-bruno.netlify.app">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
@@ -17,12 +17,13 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- Tecnologia 1
-- Tecnologia 2
+- HTML
+- CSS
+- JavaScript
 
 ## 💻 Projeto
 
-Descrição do Projeto
+Recriando a interface do Twitter na maratona de programação da Kenzie Academy - Parte 3.
 
 ## :memo: Licença
 
@@ -32,6 +33,6 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.
 
 ## Aulas
 
-- Aula 1
+- Aula 1 a 7: HTML
 
 ---

@@ -1,0 +1,37 @@
+/* Padrão de Cores e Estilização */
+:root {
+  --Azul1: #6D83F2;
+  --Azul2: #6A98F0;
+  --Azul3: #00082f;
+  --Preto1: #383838;
+  --CinzaClaro: #E5E5E5;
+}
+
+/* FOOTER FIXED */
+footer {
+  background-color: var(--CinzaClaro); /* Remover de acordo com a aplicação */
+
+  position: relative;
+  font-size: 1rem;
+  color: var(--Preto);
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  vertical-align: baseline;
+  display: flex;
+  opacity: 0.6;
+}
+
+footer:hover {
+  opacity: 1;
+}
+
+footer a {
+  font-weight: bold;
+  color: var(--Azul3);
+  text-decoration: none;
+  justify-content: center;
+}

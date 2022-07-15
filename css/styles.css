@@ -68,6 +68,7 @@ body {
 
 .conteudoPrincipal__titulo {
   padding: 10px 30px;
+  font-size: 30px;
 }
 
 .conteudoPrincipal__formulario {
@@ -96,7 +97,10 @@ body {
 
 .conteudoPrincipal__feed {}
 
-.conteudoPrincipal__listaTweets {}
+.conteudoPrincipal__listaTweets {
+  display: flex;
+  flex-flow: column-reverse nowrap;
+}
 
 .conteudoPrincipal__tweet {
   padding: 20px 30px;
@@ -105,7 +109,11 @@ body {
   border-bottom: 1px solid var(--CinzaAzulado);
 }
 
-.tweet__fotoPerfil {}
+.tweet__fotoPerfil {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
 
 .tweet__conteudo {
   margin-left: 15px; 
@@ -123,33 +131,4 @@ body {
 .tweet__conteudo p {
   margin-top: 15px;
   color: var(--CinzaEscuro);
-}
-
-/* FOOTER FIXED (PODE REMOVER À DEPENDER DO PROJETO) */
-footer {
-  background-color: var(--CinzaClaro); /* Remover de acordo com a aplicação */
-
-  position: relative;
-  font-size: 1rem;
-  color: var(--Preto);
-  width: 100%;
-  height: auto;
-  margin-top: 100px;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  vertical-align: baseline;
-  display: flex;
-  opacity: 0.6;
-}
-
-footer:hover {
-  opacity: 1;
-}
-
-footer a {
-  font-weight: bold;
-  color: var(--Azul3);
-  text-decoration: none;
-  justify-content: center;
 }

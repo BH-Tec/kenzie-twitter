@@ -34,5 +34,6 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.
 ## Aulas
 
 - Aula 1 a 7: HTML
+- Aula 8 a x: CSS
 
 ---

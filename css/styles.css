@@ -5,9 +5,127 @@
   --Azul3: #00082f;
   --Preto1: #383838;
   --CinzaClaro: #E5E5E5;
+
+  /* Padrão de Cor do Projeto Especifico */
+  --AzulPrincipal: #1da1f2;
+  --Cinza: #828282;
+  --CinzaEscuro: #333333;
+  --CinzaAzulado: #e7ecf0;
+  --Preto: #000000;
+  --Branco: #ffffff;
 }
 
-/* FOOTER FIXED */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* Cabeçalho */
+.cabecalho {
+  flex-basis: 30%;
+}
+
+.cabecalho__logo {
+  margin-bottom: 50px;
+}
+.cabecalho__logo img {}
+
+.cabecalho__logo figcaption {
+  display: none;
+}
+
+.cabecalho__menuNav {}
+
+.cabecalho__menuLista {}
+
+.cabecalho__menuItem {
+  margin-bottom: 25px;
+}
+
+.cabecalho__menuItem img {
+  max-width: 25px;
+}
+
+.cabecalho__menuItem a {
+  color: var(--Preto1);
+  text-decoration: none;
+  font-size: 22px;
+  vertical-align: top;
+}
+
+/* Conteudo Principal */
+.conteudoPrincipal {
+  flex-basis: 70%;
+  border-left: 1px solid var(--CinzaAzulado);
+  border-right: 1px solid var(--CinzaAzulado);
+}
+
+.conteudoPrincipal__titulo {
+  padding: 10px 30px;
+}
+
+.conteudoPrincipal__formulario {
+  padding: 10px 30px;
+  border-top: 2px solid var(--CinzaAzulado);
+  border-bottom: 10px solid var(--CinzaAzulado);
+  text-align: right;
+}
+
+.conteudoPrincipal__formulario textarea {
+  display: block;
+  width: 100%;
+  height: 100px;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+.conteudoPrincipal__formulario button {
+  background-color: var(--AzulPrincipal);
+  color: var(--Branco);
+  border: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+}
+
+.conteudoPrincipal__feed {}
+
+.conteudoPrincipal__listaTweets {}
+
+.conteudoPrincipal__tweet {
+  padding: 20px 30px;
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--CinzaAzulado);
+}
+
+.tweet__fotoPerfil {}
+
+.tweet__conteudo {
+  margin-left: 15px; 
+}
+
+.tweet__conteudo h2 {
+  display: inline-block;
+}
+
+.tweet__conteudo span {
+  display: inline-block;
+  color: var(--Cinza);                                                       
+}
+
+.tweet__conteudo p {
+  margin-top: 15px;
+  color: var(--CinzaEscuro);
+}
+
+/* FOOTER FIXED (PODE REMOVER À DEPENDER DO PROJETO) */
 footer {
   background-color: var(--CinzaClaro); /* Remover de acordo com a aplicação */
 

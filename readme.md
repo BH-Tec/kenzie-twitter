@@ -23,17 +23,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Recriando a interface do Twitter na maratona de programação da Kenzie Academy - Parte 3.
+Recriando a interface do Twitter na maratona de programação da Kenzie Academy.
 
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
-
----
-
-## Aulas
-
-- Aula 1 a 7: HTML
-- Aula 8 a x: CSS
 
 ---
